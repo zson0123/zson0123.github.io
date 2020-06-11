@@ -1,0 +1,187 @@
+body {
+    background-color:#00034C;
+    color: #fff;
+    font-family: Raleway;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+    text-align: center;
+
+}
+
+.container {
+    margin:0 23%;
+}
+
+#navBar {
+    height: 80px;
+    width: 100%;
+    background-color:#192841;
+    color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: fixed;
+    top: 0;
+}
+
+#logo {
+    margin-left: 30px;
+    font-size: 1.7em;
+    display: flex;
+    align-items: center;
+}
+
+#navBar ul {
+    padding:0;
+    padding-left: 50%;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    align-items: center;
+}
+
+#navBar li {
+    display: inline;
+}
+
+#navBar a {
+    color:#fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+}
+
+.front-screen {
+    color: #fff;
+    font-size: 18px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#top-text {
+    text-align: left;
+    line-height: 0.8em;
+}
+
+.highlight {
+    color: #fff;
+    font-size: 50px;
+}
+
+#about {
+    min-height: 100vh;
+    padding-top: 20px;
+}
+
+#about-text {
+    text-align: justify;
+    margin: 0 5%;
+}
+
+#projects{
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 100vh;
+  max-height: 70%;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 20px 0;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.card {
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  background-color: #0a192f;
+  width: 300px;
+  height: 500px;
+}
+
+.card-content {
+  padding: 1rem;
+}
+
+.name {
+    height: 45px;
+}
+
+.card-image {
+  height: 250px;
+  width: 250px;
+  margin-left: -25px;
+}
+
+.card-image img {
+  height: 250px;
+}
+
+.link-tag {
+    font-size: 28px;
+}
+
+.link-tag a {
+    color: #64ffda;
+    text-decoration-line: none;
+}
+
+#contact {
+    margin-top: 200px;
+}
+
+.button {
+    background-color: #333;
+    color:#fff;
+    padding: 10px 15px;
+    border: none;
+}
+
+.button:hover {
+    background: red;
+    color: #fff;
+}
+
+.my-form {
+    padding:20px;
+    text-align: left;
+}
+
+.my-form .form-group {
+    padding-bottom:15px;
+}
+
+.my-form label {
+    display:block;
+}
+
+.my-form input[type="text"], .my-form textarea {
+    padding: 8px;
+    width: 100%;
+}
+
+#upBtn {
+  background-color: #172a45;
+  border: none;
+  color: #64ffda;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 50%;
+}
+
+#footer {
+    margin-top: 20px;
+    color: #4d5a6e;
+}
