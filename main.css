@@ -136,6 +136,15 @@ body {
     text-decoration-line: none;
 }
 
+.tech_used {
+    font-size: 0.8em;
+    margin-bottom: 0px;
+}
+
+.project_description {
+    margin-bottom: 0px;
+}
+
 #contact {
     margin-top: 200px;
 }
